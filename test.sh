@@ -5,7 +5,7 @@ printf "\n======================================================================
 printf "KOBITON EXECUTE TEST ACTION"
 printf "\n=====================================================================================\n\n"
 
-# change the name of app to run based on your system (app_darwin for macOS, app_linux for Linux, app_windows for Windows)
+# -change the name of app to run based on your system (app_darwin for macOS, app_linux for Linux, app_windows for Windows)
 TARGET_OS="linux"
 echo "Runner OS: ${RUNNER_OS}"
 if [ $RUNNER_OS == "macOS" ]; then
