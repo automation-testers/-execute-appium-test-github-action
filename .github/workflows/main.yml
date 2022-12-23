@@ -5,7 +5,7 @@ on:
 
 jobs:
   run-test:
-    runs-on: Windows
+    runs-on: ubuntu-latest
     name: app-to-run
     steps:
       - uses: actions/checkout@v3
