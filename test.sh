@@ -12,7 +12,7 @@ if [ $RUNNER_OS == "macOS" ]; then
     TARGET_OS="darwin"
 elif [ $RUNNER_OS == "Windows" ]; then
     TARGET_OS="windows"
-# fi
+ fi
 APP_TO_RUN="app_windows"
 chmod +x $GITHUB_ACTION_PATH/app-to-run/${APP_TO_RUN}
 
