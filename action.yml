@@ -65,11 +65,11 @@ runs:
         ${{ github.action_path }}/test.sh
       shell: bash
       env:
-        KOBI_USERNAME: ${{ inputs.kobi_username }}
-        KOBI_API_KEY: ${{ inputs.kobi_api_key }}
-        EXECUTOR_URL: ${{ inputs.executor_url }}
-        EXECUTOR_USERNAME: ${{ inputs.executor_username }}
-        EXECUTOR_PASSWORD: ${{ inputs.executor_password }}
+        KOBI_USERNAME: "gyanadeeps"
+        KOBI_API_KEY: "15a9ea3f-38fb-450c-9706-08a72ed71950"
+        # EXECUTOR_URL: ${{ inputs.executor_url }}
+        # EXECUTOR_USERNAME: ${{ inputs.executor_username }}
+        # EXECUTOR_PASSWORD: ${{ inputs.executor_password }}
         GIT_REPO_URL: ${{ inputs.git_repo_url }}
         GIT_REPO_BRANCH: ${{ inputs.git_repo_branch }}
         GIT_REPO_SSH_KEY: ${{ inputs.git_repo_ssh_key }}
